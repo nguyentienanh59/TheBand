@@ -51,6 +51,10 @@ html {
   width: 33.333%;
 }
 
+.col-five {
+  width: 20%;
+}
+
 .col-half {
   width: 50%;
 }
@@ -63,6 +67,11 @@ html {
 .col-full {
   width: 100%;
 }
+
+.pull-right {
+  float: right;
+}
+
 /* main */
 
 #main {
@@ -171,7 +180,7 @@ html {
 /* content section */
 #content .content-section {
   width: 800px;
-  padding: 65px 0;
+  padding: 65px 0 112px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -248,7 +257,6 @@ html {
 /* place */
 .places-list {
   margin-top: 32px;
-  margin-bottom: 48px;
 }
 
 .place-img {
@@ -292,6 +300,7 @@ html {
 .btn-s-full-width:hover {
   color: #000;
   background-color: #ccc;
+  cursor: pointer;
 }
 
 /* buy ticket */
@@ -347,6 +356,7 @@ html {
 .modal-body {
   padding: 15px;
 }
+
 .modal-lable {
   margin-bottom: 10px;
   font-size: 16px;
@@ -369,6 +379,7 @@ html {
   border: none;
   cursor: pointer;
 }
+
 #buy-tickets:hover {
   opacity: 0.8;
 }
@@ -419,19 +430,39 @@ html {
   border: 1px solid #ccc;
   width: 100%;
 }
+
 .row::after {
   content: "";
   display: block;
   clear: both;
 }
 
-.contact-form .from-submit-btn {
-  border: none;
-  color: #fff;
-  background-color: #000;
-  padding: 10px 20px;
-  float: right;
+.hello-band img {
+  width: 100%;
 }
+
 /* footer section */
 #footer {
+  padding: 64px 16px;
+  text-align: center;
 }
+
+.social-list a {
+  color: #ccc;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.social-list a:hover {
+  opacity: 0.5;
+}
+
+#footer .copyright{
+  margin-top: 15px;
+  color:#ccc ;
+}
+
+.copyright a {
+  color: #ccc;
+}
+/* end footer */
