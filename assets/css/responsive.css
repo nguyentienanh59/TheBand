@@ -1,0 +1,36 @@
+/* PC */
+@media(min-width:1024px){
+
+}
+
+/* Tablet */
+@media(min-width:740px) and (max-width:1023px){
+
+}
+
+/* Mobile */
+@media(max-width:740px){
+    .s-full-width,
+    .s-col-full{
+        width: 100% !important;
+    }
+    #nav li{
+        display: block;
+    }
+    #header .menu-mobile-btn{
+        display: block;
+    }
+    #header .search-btn{
+        display: none;
+      }
+    #content .member-item{
+        margin-top: 30px;
+        width: 100%;
+    }
+    #content .member-img{
+        width:60%
+    }
+    .contact-form{
+        margin-top: 15px;
+    }
+}
